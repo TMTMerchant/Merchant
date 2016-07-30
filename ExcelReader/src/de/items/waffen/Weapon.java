@@ -1,20 +1,20 @@
 package de.items.waffen;
 
-import de.items.Ausruestungsgegenstand;
+import de.item.EquipmentItem;
 
 /**
  * @version 06.11.2015
  * @author frietscht
  */
 
-public class Weapon extends Ausruestungsgegenstand {
+public class Weapon extends EquipmentItem {
 
-	private int		id;
-	private int		physicalAttackDamage;
-	private int		magicDamage;
-	private int		attackSpeed;
-	private boolean	oneHanded;
-	private char	scaling;
+	private int id;
+	private int physicalAttackDamage;
+	private int magicDamage;
+	private int attackSpeed;
+	private boolean oneHanded;
+	private char scaling;
 
 	public int getPhysicalAttackDamage() {
 		return physicalAttackDamage;
