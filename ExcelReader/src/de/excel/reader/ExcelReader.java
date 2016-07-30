@@ -11,7 +11,7 @@ import org.apache.poi.hssf.usermodel.HSSFWorkbook;
  */
 public class ExcelReader {
 
-	private final String	excelURL	= "test.xls";
+	private final String	excelURL	= "ItemExcel/test.xls";
 	private HSSFWorkbook	excelFile;
 
 	public HSSFWorkbook getExcelWorkbook() {
